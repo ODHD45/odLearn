@@ -28,6 +28,12 @@ public class test01 {
             System.out.println(s);
         }
 
+        System.out.println("-----------------");
+
+        list1.stream().filter(s -> s.startsWith("李"))
+                .filter(s -> s.length() ==3 )
+                .forEach(System.out::println);
+
     }
 
 }
