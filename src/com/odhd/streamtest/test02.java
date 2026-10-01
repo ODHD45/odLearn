@@ -10,7 +10,7 @@ public class test02 {
     public static void main(String[] args) {
 
         /*
-        获取steam流
+        获取steam流：
         单列集合
         多列集合
         数组
@@ -26,18 +26,6 @@ public class test02 {
         list1.add("陈山楂");
 
         Stream<String> stream1 = list1.stream();
-
-        stream1.forEach(s->System.out.println(s));
-
-        stream1.forEach(new Consumer<String>() {
-                            @Override
-                            public void accept(String s) {
-                                System.out.println(s);
-                            }
-                        }
-
-        );
-
 
         stream1.filter(s->s.startsWith("李")).forEach(s->System.out.println(s));
 

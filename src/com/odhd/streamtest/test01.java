@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 public class test01 {
     public static void main(String[] args) {
+        /*
+        流的使用：
+         */
         ArrayList<String> list1 = new ArrayList<>();
         list1.add("李果");
         list1.add("张香蕉");
@@ -28,7 +31,7 @@ public class test01 {
             System.out.println(s);
         }
 
-        System.out.println("-----------------");
+        System.out.println("--------stream流--------");
 
         list1.stream().filter(s -> s.startsWith("李"))
                 .filter(s -> s.length() ==3 )
