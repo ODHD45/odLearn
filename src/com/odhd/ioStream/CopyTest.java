@@ -1,7 +1,6 @@
-package com.odhd.io;
+package com.odhd.ioStream;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
